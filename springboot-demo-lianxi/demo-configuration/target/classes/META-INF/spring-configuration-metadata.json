@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "foot",
+      "type": "com.duing.cofig.FootConfig",
+      "sourceType": "com.duing.cofig.FootConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "foot.meat",
+      "type": "java.lang.String",
+      "sourceType": "com.duing.cofig.FootConfig"
+    },
+    {
+      "name": "foot.rice",
+      "type": "java.lang.String",
+      "sourceType": "com.duing.cofig.FootConfig"
+    },
+    {
+      "name": "foot.vegetable",
+      "type": "java.lang.String",
+      "sourceType": "com.duing.cofig.FootConfig"
+    }
+  ],
+  "hints": []
+}
