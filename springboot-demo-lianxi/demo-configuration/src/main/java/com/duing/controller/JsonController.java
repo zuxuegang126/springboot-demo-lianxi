@@ -1,7 +1,9 @@
 package com.duing.controller;
 
 import com.duing.bean.Foot;
+import com.duing.bean.Vegetables;
 import com.duing.cofig.FootConfig;
+import com.duing.cofig.VegetableConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +14,9 @@ public class JsonController {
 
     @Autowired//自动注入
      FootConfig footConfig;
+
+    @Autowired
+    VegetableConfig vegetableConfig;
 
     @Value("${foot.rice}")//@Value("${foot.rice}")获得配置文件application.properties中foot.rice的值,并且赋给JsonController类的属性rice
     private String rice;
@@ -24,7 +29,7 @@ public class JsonController {
         return new Foot(rice,meat);//把JsonController类的属性值给foot对象对应的属性
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/v")
     public String json() {
         return "json   oooooo";
     }
@@ -42,5 +47,13 @@ public class JsonController {
     @RequestMapping("/getFootConfigJsonObject")
     public FootConfig getFootConfigJsonObject(){//把对象以JSON形式响应回浏览器
         return footConfig;
+    }
+
+    @RequestMapping("/getVegetablesJsonObject")
+    public Vegetables getVegetablesJsonObject(){
+        Vegetables vegetables=new Vegetables();
+        vegetables.setEgg(vegetableConfig.getEgg());
+        vegetables.setName(vegetableConfig.getName());
+        return vegetables;
     }
 }

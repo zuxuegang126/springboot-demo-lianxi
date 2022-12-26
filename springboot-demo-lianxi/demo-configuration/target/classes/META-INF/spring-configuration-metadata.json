@@ -4,6 +4,11 @@
       "name": "foot",
       "type": "com.duing.cofig.FootConfig",
       "sourceType": "com.duing.cofig.FootConfig"
+    },
+    {
+      "name": "vegetable",
+      "type": "com.duing.cofig.VegetableConfig",
+      "sourceType": "com.duing.cofig.VegetableConfig"
     }
   ],
   "properties": [
@@ -21,6 +26,16 @@
       "name": "foot.vegetable",
       "type": "java.lang.String",
       "sourceType": "com.duing.cofig.FootConfig"
+    },
+    {
+      "name": "vegetable.egg",
+      "type": "java.lang.String",
+      "sourceType": "com.duing.cofig.VegetableConfig"
+    },
+    {
+      "name": "vegetable.name",
+      "type": "java.lang.String",
+      "sourceType": "com.duing.cofig.VegetableConfig"
     }
   ],
   "hints": []
