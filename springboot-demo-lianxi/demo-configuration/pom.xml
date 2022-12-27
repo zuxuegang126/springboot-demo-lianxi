@@ -52,6 +52,19 @@
       <optional>true</optional>
     </dependency>
 
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+
+    <dependency>
+      <!--加密依赖-->
+      <groupId>com.github.ulisesbocchio</groupId>
+      <artifactId>jasypt-spring-boot-starter</artifactId>
+      <version>3.0.5</version>
+
+    </dependency>
+
   </dependencies>
   <build>
     <plugins>

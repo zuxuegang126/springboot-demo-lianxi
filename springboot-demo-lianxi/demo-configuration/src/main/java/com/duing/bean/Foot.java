@@ -1,6 +1,6 @@
 package com.duing.bean;
 
-public class Foot {
+public class Foot {//数据最终接收类
     private String rice;
     private String meat;
     public Foot(String rice, String meat) {
