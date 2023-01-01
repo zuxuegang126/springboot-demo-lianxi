@@ -14,8 +14,15 @@ foot:
 #流式语法
 food: {meat: kaorou,rice: rice}
 
+
+
+
 #表示激活dev文档
 spring:
+  mvc:
+    view:
+      prefix:
+      suffix:
   profiles:
     active: dev
 

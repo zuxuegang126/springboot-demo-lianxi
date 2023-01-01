@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+
+  #thymeleaf膜版视图配置
+  thymeleaf:
+    suffix: .html
+
+
+  #freemarker膜版视图配置
+  freemarker:
+    suffix: .ftl
+

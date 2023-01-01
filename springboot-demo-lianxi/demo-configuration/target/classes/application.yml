@@ -1,2 +1,40 @@
 server:
   port: 8094
+
+#上个层级和 下个层级之间即冒号后面必须至少有一个空格，可以换行
+foot:
+  meat: kaorou
+  rice: rice
+  #sauce是数组
+  sauce:
+    - 咖喱
+    - 蜜汁
+    - 原味
+
+#流式语法
+food: {meat: kaorou,rice: rice}
+
+
+
+
+#表示激活dev文档
+spring:
+  mvc:
+    view:
+      prefix:
+      suffix:
+  profiles:
+    active: dev
+
+#---表示一个文档的开始
+---
+spring:
+  profiles: dev
+
+  #设置Dev文档的服务（Tomcat）端口号
+server:
+  port: 8095
+
+---
+spring:
+  profiles: div

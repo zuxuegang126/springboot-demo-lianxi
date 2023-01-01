@@ -7,19 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
+        <module name="demo-thymeleaf-web-restful" />
+        <module name="freemarker" />
         <module name="demo (1)" />
+        <module name="demo-thyemleaf-jpa" />
+        <module name="demo-thymeleaf" />
+        <module name="demo" />
+        <module name="demo-freemaker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
-      <module name="demo (1)" target="1.8" />
+      <module name="untitled" target="1.8" />
+      <module name="untitled1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
+      <module name="demo-freemaker" options="-parameters" />
+      <module name="demo-thyemleaf-jpa" options="-parameters" />
+      <module name="demo-thymeleaf" options="-parameters" />
+      <module name="demo-thymeleaf-web-restful" options="-parameters" />
+      <module name="freemarker" options="-parameters" />
     </option>
   </component>
 </project>

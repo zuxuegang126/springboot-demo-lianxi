@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查询</title>
+</head>
+<body>
+<h1>请输入要查询的姓名或职位</h1>
+<form th:action="@{/Guest/QueryGuest}" method="post">
+    <p>姓名<input type="text" id="name" name="name" value=""></p>
+    <p>职位<input type="text" id="position" name="position" value=""></p>
+    <p><input type="submit" value="查询"></p>
+</form>
+<a href="/Guest/QueryGuest" >查询</a>
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+    <html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <title>UpdataGuest</title>
+       </head>
+       <body>
+         <form th:action="@{/Guest/updataGuest}"  method="post">
+             <p>姓名<input type="text" id="name" name="name" th:value= "${guest.name}" readonly></p>
+             <p>职位<input type="text" id="position" name="position" th:value="${guest.position}"></p>
+             <p> <input type="submit"></p>
+         </form>
+
+       </body>
+    </html>

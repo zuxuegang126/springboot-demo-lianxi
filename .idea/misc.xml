@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/demo-thymeleaf" />
+    <file type="web" url="file://$PROJECT_DIR$/demo-thymeleaf-web-restful" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springboot-demo-lianxi/demo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-demo-lianxi/demo-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-freemaker/pom.xml" />
+        <option value="$PROJECT_DIR$/freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-thymeleaf-web-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-thyemleaf-jpa/pom.xml" />
       </list>
     </option>
   </component>

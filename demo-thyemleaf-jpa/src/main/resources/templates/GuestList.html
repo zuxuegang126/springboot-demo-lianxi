@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://wwq.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>嘉宾列表</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <td>姓名</td>
+        <td>职位</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="guest:${guestList}">
+        <td th:text="${guest.name}">姓名</td>
+        <td th:text="${guest.position}">职位</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

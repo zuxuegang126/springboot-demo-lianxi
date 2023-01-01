@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en" xmlns:th="http://www.thymeleaf.org">
+    <meta charset="UTF-8" >
+    <title>GuestList</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr >
+        <td>姓名</td>
+        <td>职位</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="guest:${guestList}" >
+        <td th:text="${guest.name}">姓名</td>
+        <td th:text="${guest.position}">职位</td>
+        <td><a th:href="@{/Guest/ToUpdataGuest(name=${guest.name})}"/>编辑</td>
+        <td><a th:href="@{/Guest/ToDeleteGuest(name=${guest.name})}"/>删除</td>
+    </tr>
+    </tbody>
+</table>
+<a href="/Guest/ToAddGuest" th:href="@{/Guest/ToAddGuest}">add</a>
+</body>
+</html>
