@@ -1,4 +1,4 @@
-package com.renhe.dao;
+package com.renhe.mapper;
 
 import com.renhe.bean.Guest;
 import org.springframework.stereotype.Repository;

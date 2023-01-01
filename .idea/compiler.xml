@@ -9,8 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo-thymeleaf-web-restful" />
         <module name="freemarker" />
+        <module name="demo-spring-boot-orm-tk.mapper" />
         <module name="demo (1)" />
         <module name="demo-thyemleaf-jpa" />
+        <module name="spring-boot-orm-mybatis" />
         <module name="demo-thymeleaf" />
         <module name="demo" />
         <module name="demo-freemaker" />
@@ -30,6 +32,7 @@
       <module name="demo-thymeleaf" options="-parameters" />
       <module name="demo-thymeleaf-web-restful" options="-parameters" />
       <module name="freemarker" options="-parameters" />
+      <module name="spring-boot-orm-mybatis" options="-parameters" />
     </option>
   </component>
 </project>

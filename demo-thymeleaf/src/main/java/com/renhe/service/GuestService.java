@@ -1,7 +1,7 @@
 package com.renhe.service;
 
 import com.renhe.bean.Guest;
-import com.renhe.dao.GuestDao;
+import com.renhe.mapper.GuestDao;
 import com.renhe.interfaceClass.service.GuestServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

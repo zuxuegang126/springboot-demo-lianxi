@@ -1,4 +1,4 @@
-package com.renhe.dao;
+package com.renhe.mapper;
 
 import com.renhe.bean.Guest;
 import com.renhe.interfaceClass.dao.GuestDaoInterface;

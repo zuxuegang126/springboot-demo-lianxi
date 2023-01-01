@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/demo-spring-boot-orm-tk.mapper" />
     <file type="web" url="file://$PROJECT_DIR$/demo-thymeleaf" />
     <file type="web" url="file://$PROJECT_DIR$/demo-thymeleaf-web-restful" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-orm-mybatis" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -15,6 +17,8 @@
         <option value="$PROJECT_DIR$/demo-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/demo-thymeleaf-web-restful/pom.xml" />
         <option value="$PROJECT_DIR$/demo-thyemleaf-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-orm-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-boot-orm-tk.mapper/pom.xml" />
       </list>
     </option>
   </component>
