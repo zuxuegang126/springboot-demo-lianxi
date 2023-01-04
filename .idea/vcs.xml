@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/demo-freemaker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo-spring-boot-orm-mybatis-Plus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo-spring-boot-orm-mybatis-manyDataSource" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/freemarker" vcs="Git" />
   </component>
 </project>

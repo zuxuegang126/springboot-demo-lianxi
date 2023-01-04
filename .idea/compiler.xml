@@ -15,19 +15,20 @@
         <module name="spring-boot-orm-mybatis" />
         <module name="demo-thymeleaf" />
         <module name="demo" />
+        <module name="demo-spring-boot-orm-mybatis-manyDataSource" />
         <module name="demo-freemaker" />
+        <module name="demo-spring-boot-orm-mybatis-Plus" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="untitled" target="1.8" />
-      <module name="untitled1" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="demo-freemaker" options="-parameters" />
+      <module name="demo-spring-boot-orm-mybatis-Plus" options="-parameters" />
+      <module name="demo-spring-boot-orm-mybatis-manyDataSource" options="-parameters" />
+      <module name="demo-spring-boot-orm-tk.mapper" options="-parameters" />
       <module name="demo-thyemleaf-jpa" options="-parameters" />
       <module name="demo-thymeleaf" options="-parameters" />
       <module name="demo-thymeleaf-web-restful" options="-parameters" />
